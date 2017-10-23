@@ -2,11 +2,11 @@
 # CS Courseware
 
 Perusopinnot / Basic studies:
-* [TKT10001 Johdatus tietojenkäsittelytieteeseen]()
-* [TKT10002	Ohjelmoinnin perusteet]()
-* [TKT10003 Ohjelmoinnin jatkokurssi]()
-* [TKT10004 Tietokantojen perusteet]()
-* [TKT10005	Tietokoneen toiminta]()
+* [TKT10001 Johdatus tietojenkäsittelytieteeseen](https://cs-courseware-helsinki.github.io/TKT10001-Johdatus-tietojenkasittelytieteeseen/)
+* [TKT10002	Ohjelmoinnin perusteet](https://cs-courseware-helsinki.github.io/TKT10002-Ohjelmoinnin-perusteet/)
+* [TKT10003 Ohjelmoinnin jatkokurssi](https://cs-courseware-helsinki.github.io/TKT10003-Ohjelmoinnin-jatkokurssi/)
+* [TKT10004 Tietokantojen perusteet](https://cs-courseware-helsinki.github.io/TKT10004-Tietokantojen-perusteet/)
+* [TKT10005	Tietokoneen toiminta](https://cs-courseware-helsinki.github.io/TKT10005-Tietokoneen-toiminta/)
 
 Aineopinnot / Intermediate studies:
 * [TKT20001 Tietorakenteet ja algoritmit]()
