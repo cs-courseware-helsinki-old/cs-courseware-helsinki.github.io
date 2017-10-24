@@ -11,7 +11,7 @@ Perusopinnot / Basic studies:
 Aineopinnot / Intermediate studies:
 * [TKT20001 Tietorakenteet ja algoritmit]()
 * [TKT20004 Tietoliikenteen perusteet]()
-* [TKT20005 Laskennan mallit]()
+* [TKT20005 Laskennan mallit](https://cs-courseware-helsinki.github.io/TKT20006-Ohjelmistotuotanto/)
 * [TKT20006 Ohjelmistotuotanto]()
 * [TKT20007 Software Engineering Lab]()
 * [TKT20009	Introduction to Cyber Security]()
