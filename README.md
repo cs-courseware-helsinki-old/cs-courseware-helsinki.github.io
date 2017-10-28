@@ -53,7 +53,7 @@ Syventävät opinnot / Advanced studies
 * [CSM14102 Methods for Software Engineering Research](https://courses.helsinki.fi/fi/csm14102)
 * [CSM14103 Ohjelmistoarkkitehtuurien harjoitustyö](https://courses.helsinki.fi/fi/csm14103)
 * [CSM14104 Software Product Management](https://courses.helsinki.fi/fi/csm14104)
-* [CSM14105 Ohjelmistoprojektien johtaminen ja ryhmadynamiikka](https://courses.helsinki.fi/14105)
+* [CSM14105 Ohjelmistoprojektien johtaminen ja ryhmadynamiikka](https://courses.helsinki.fi/csm14105)
 * [CSM14106 Software Factory Experience](https://courses.helsinki.fi/csm14106)
 * [CSM14107 Seminar in Empirical Software Engineering](https://courses.helsinki.fi/csm14107)
 * [CSM14201 Ohjelmistojen testaus](https://courses.helsinki.fi/csm14201)
