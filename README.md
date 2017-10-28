@@ -1,6 +1,8 @@
 **University of Helsinki**
 # CS Courseware
 
+[näytä aikataulut](https://cs-courseware-helsinki.github.io/schedules.html)
+
 Perusopinnot / Basic studies:
 * [TKT10001 Johdatus tietojenkäsittelytieteeseen](https://cs-courseware-helsinki.github.io/TKT10001-Johdatus-tietojenkasittelytieteeseen/)
 * [TKT10002 Ohjelmoinnin perusteet](https://cs-courseware-helsinki.github.io/TKT10002-Ohjelmoinnin-perusteet/)
