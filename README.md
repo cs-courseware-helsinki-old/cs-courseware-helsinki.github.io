@@ -70,4 +70,4 @@ Syventävät opinnot / Advanced studies
 * [DATA15003 Interactive Data Visualization](https://courses.helsinki.fi/data15003)
 * [DATA20002 Seminar: Deep Learning for Natural Language Processing](https://courses.helsinki.fi/data20002)
 * [LSI31003 Machine Learning in Molecular Biology](https://courses.helsinki.fi/lsi31003)
-* [LSI31004 Seminar in machine learning methods for fossil data analysis](https://courses.helsinki.fi/ls31004)
+* [LSI31004 Seminar in machine learning methods for fossil data analysis](https://courses.helsinki.fi/lsi31004)
