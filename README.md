@@ -18,7 +18,7 @@ Aineopinnot / Intermediate studies:
 * [TKT20007 Ohjelmistotuotanto projekti](https://cs-courseware-helsinki.github.io/TKT20007-Ohjelmistotuotanto-projekti)
 * [TKT20009 Introduction to Cyber Security](https://cs-courseware-helsinki.github.io/TKT20009-Introduction-to-Cyber-Security)
 * [TKT20010 Aineopintojen harjoitustyö: Tietorakenteet ja algoritmit](https://cs-courseware-helsinki.github.io/TKT20010-Aineopintojen-harjoitustyo-Tietorakenteet-ja-algoritmit)
-* [TKT20011 Intermediate Studies Project: Database Application](https://cs-courseware-helsinki.github.io/TKT20011-Aineopintojen-harjoitustyo-Tietokantasovellus)
+* [TKT20011 Aineopintojen harjoitustyö: Tietokantasovellus](https://cs-courseware-helsinki.github.io/TKT20011-Aineopintojen-harjoitustyo-Tietokantasovellus)
 * [TKT21001 Tietokannan suunnittelu](https://cs-courseware-helsinki.github.io/TKT21001-Tietokannan-suunnittelu
 )
 * [TKT21002 Introduction to Game Programming](https://cs-courseware-helsinki.github.io/TKT21002-Introduction-to-Game-Programming)
