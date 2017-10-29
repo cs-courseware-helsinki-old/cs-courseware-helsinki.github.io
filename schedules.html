@@ -1,170 +1,130 @@
-
 <!doctype html>
 <html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-<!-- Begin Jekyll SEO tag v2.3.0 -->
-<title>cs-courseware-helsinki.github.io | University of Helsinki Computer Science Courseware</title>
-<meta property="og:title" content="cs-courseware-helsinki.github.io" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="University of Helsinki Computer Science Courseware" />
-<meta property="og:description" content="University of Helsinki Computer Science Courseware" />
-<link rel="canonical" href="https://cs-courseware-helsinki.github.io/" />
-<meta property="og:url" content="https://cs-courseware-helsinki.github.io/" />
-<meta property="og:site_name" content="cs-courseware-helsinki.github.io" />
-<script type="application/ld+json">
-{"name":"cs-courseware-helsinki.github.io","description":"University of Helsinki Computer Science Courseware","author":null,"@type":"WebSite","url":"https://cs-courseware-helsinki.github.io/","image":null,"publisher":null,"headline":"cs-courseware-helsinki.github.io","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>cs-courseware-helsinki.github.io</h1>
-        <p>University of Helsinki Computer Science Courseware</p>
-          <p class="view"><a href="https://github.com/cs-courseware-helsinki">View My GitHub Profile</a></p>   
-      </header>
-      <section>
-
-      <p><strong>University of Helsinki</strong></p>
-<h1 id="cs-courseware">CS Courseware</h1>
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-<a href="https://cs-courseware-helsinki.github.io/">Piilota aikataulut</a>
-<br>
-<button onclick="highlightCoursesByPeriod(1)">Periodi 1</button>
-<button onclick="highlightCoursesByPeriod(2)">Periodi 2</button>
-<button onclick="highlightCoursesByPeriod(3)">Periodi 3</button>
-<button onclick="highlightCoursesByPeriod(4)">Periodi 4</button>
-<button onclick="resetHighlights()">reset</button>
-
-
-<p>Perusopinnot / Basic studies:</p>
-<ul>
-  <li><a class="course-row" id="TKT10001" href="https://cs-courseware-helsinki.github.io/TKT10001-Johdatus-tietojenkasittelytieteeseen/">TKT10001 Johdatus tietojenkäsittelytieteeseen</a></li>
-  <li><a class="course-row" id="TKT10002" href="https://cs-courseware-helsinki.github.io/TKT10002-Ohjelmoinnin-perusteet/">TKT10002 Ohjelmoinnin perusteet</a></li>
-  <li><a class="course-row" id="TKT10003" href="https://cs-courseware-helsinki.github.io/TKT10003-Ohjelmoinnin-jatkokurssi/">TKT10003 Ohjelmoinnin jatkokurssi</a></li>
-  <li><a class="course-row" id="TKT10004" href="https://cs-courseware-helsinki.github.io/TKT10004-Tietokantojen-perusteet/">TKT10004 Tietokantojen perusteet</a></li>
-  <li><a class="course-row" id="TKT10005" href="https://cs-courseware-helsinki.github.io/TKT10005-Tietokoneen-toiminta/">TKT10005 Tietokoneen toiminta</a></li>
-</ul>
-
-<p>Aineopinnot / Intermediate studies:</p>
-<ul>
-  <li><a class="course-row" id="TKT20001" href="https://cs-courseware-helsinki.github.io/TKT20001-Tietorakenteet-ja-algoritmit">TKT20001 Tietorakenteet ja algoritmit</a></li>
-  <li><a class="course-row" id="TKT20002" href="https://cs-courseware-helsinki.github.io/TKT20002-Ohjelmistotekniikan-menetelmat">TKT20002 Ohjelmistotekniikan menetelmät</a></li>
-  <li><a class="course-row" id="TKT20003" href="https://cs-courseware-helsinki.github.io/TKT20003-Kayttojarjestelmat">TKT20003 Kayttöjärjestelmät</a></li>
-  <li><a class="course-row" id="TKT20004" href="https://cs-courseware-helsinki.github.io/TKT20004-Tietoliikenteen-perusteet">TKT20004 Tietoliikenteen perusteet</a></li>
-  <li><a class="course-row" id="TKT20005" href="https://cs-courseware-helsinki.github.io/TKT20005-Laskennan-mallit">TKT20005 Laskennan mallit</a></li>
-  <li><a class="course-row" id="TKT20006" href="https://cs-courseware-helsinki.github.io/TKT20006-Ohjelmistotuotanto">TKT20006 Ohjelmistotuotanto</a></li>
-  <li><a class="course-row" id="TKT20007" href="https://cs-courseware-helsinki.github.io/TKT20007-Ohjelmistotuotanto-projekti">TKT20007 Ohjelmistotuotantoprojekti</a></li>
-  <li><a class="course-row" id="TKT20009" href="https://cs-courseware-helsinki.github.io/TKT20009-Introduction-to-Cyber-Security">TKT20009 Introduction to Cyber Security</a></li>
-  <li><a class="course-row" id="TKT20010" href="https://cs-courseware-helsinki.github.io/TKT20010-Aineopintojen-harjoitustyo-Tietorakenteet-ja-algoritmit">TKT20010 Aineopintojen harjoitustyö: Tietorakenteet ja algoritmit</a></li>
-  <li><a class="course-row" id="TKT20011" href="https://cs-courseware-helsinki.github.io/TKT20011-Aineopintojen-harjoitustyo-Tietokantasovellus">TKT20011 Intermediate Studies Project: Database Application</a></li>
-  <li><a class="course-row" id="TKT21001" href="https://cs-courseware-helsinki.github.io/TKT21001-Tietokannan-suunnittelu">TKT21001 Tietokannan suunnittelu</a></li>
-  <li><a class="course-row" id="TKT21002" href="https://cs-courseware-helsinki.github.io/TKT21002-Introduction-to-Game-Programming">TKT21002 Introduction to Game Programming</a></li>
-  <li><a class="course-row" id="TKT21004" href="https://cs-courseware-helsinki.github.io/TKT21004-Computer-Organization">TKT21004 Computer Orgarnisation</a></li>
-  <li><a class="course-row" id="TKT21007" href="https://cs-courseware-helsinki.github.io/TKT21007-Web-palvelinohjelmointi-Java">TKT21007 Web-palvelinohjelmointi Java</a></li>
-  <li><a class="course-row" id="TKT21008" href="https://cs-courseware-helsinki.github.io/TKT21008-Programming-in-C">TKT21008 Programming in C</a></li>
-  <li><a class="course-row" id="TKT21009" href="https://cs-courseware-helsinki.github.io/TKT21009-Fullstack-websovelluskehitys">TKT21009 Fullstack-websovelluskehitys</a></li>
-  <li><a class="course-row" id="TKT21010" href="https://cs-courseware-helsinki.github.io/TKT21010-Fullstack-websovelluskehitys-harjoitustyo">TKT21010 Fullstack-websovelluskehitys -harjoitustyo</a></li>
-  <li><a class="course-row" id="CSM13501" href="https://cs-courseware-helsinki.github.io/CSM13501-Shell-Scripting/">CSM13501 Shell Scripting</a></li>
-</ul>
-
-<p>Syventävät opinnot / Advanced studies</p>
-<ul>
-  <li><a class="course-row" id="CSM11002" href="https://courses.helsinki.fi/fi/csm11002">CSM11002 Computer Science Colloquium</a></li>
-  <li><a class="course-row" id="CSM12101" href="https://courses.helsinki.fi/fi/csm12101">CSM12101 Design and Analysis of Algorithms</a></li>
-  <li><a class="course-row" id="CSM12103" href="https://courses.helsinki.fi/fi/csm12103">CSM12103 Data Compression Techniques</a></li>
-  <li><a class="course-row" id="CSM12104" href="https://courses.helsinki.fi/fi/csm12104">CSM12104 Randomized Algorithms I</a></li>
-  <li><a class="course-row" id="CSM12105" href="https://courses.helsinki.fi/fi/csm12105">CSM12105 Randomized Algorithms II</a></li>
-  <li><a class="course-row" id="CSM12108" href="https://courses.helsinki.fi/fi/csm12108">CSM12108 Biological Sequence Analysis</a></li>
-  <li><a class="course-row" id="CSM12110" href="https://courses.helsinki.fi/fi/csm12110">CSM12110 Seminar in Experimental Algorithmics</a></li>
-  <li><a class="course-row" id="CSM12111" href="https://courses.helsinki.fi/fi/csm12111">CSM12111 Seminar on Parameterized Algorithms</a></li>
-  <li><a class="course-row" id="CSM12112" href="https://courses.helsinki.fi/fi/csm12112">CSM12112 Seminar on Applied Discrete Algorithms A</a></li>
-  <li><a class="course-row" id="CSM13001" href="https://courses.helsinki.fi/fi/csm13001">CSM13001 Distributed Systems</a></li>
-  <li><a class="course-row" id="CSM13101" href="https://courses.helsinki.fi/fi/csm13101">CSM13101 Networked Systems and Services</a></li>
-  <li><a class="course-row" id="CSM13102" href="https://courses.helsinki.fi/fi/csm13102">CSM13102 Internet Protocols</a></li>
-  <li><a class="course-row" id="CSM13103" href="https://courses.helsinki.fi/fi/csm13103">CSM13103 Cloud and Edge Computing</a></li>
-  <li><a class="course-row" id="CSM13104" href="https://courses.helsinki.fi/fi/csm13104">CSM13104 Scalable Overlay Networks</a></li>
-  <li><a class="course-row" id="CSM13181" href="https://courses.helsinki.fi/fi/csm13181">CSM13181 Seminar on Cloud-based Mobile Networking</a></li>
-  <li><a class="course-row" id="CSM13202" href="https://courses.helsinki.fi/fi/csm13202">CSM13202 Cryptography in Networking</a></li>
-  <li><a class="course-row" id="CSM13204" href="https://courses.helsinki.fi/fi/csm13204">CSM13204 Cyber Security II</a></li>
-  <li><a class="course-row" id="CSM13281" href="https://courses.helsinki.fi/fi/csm13281">CSM13281 Seminar on Communication Security</a></li>
-  <li><a class="course-row" id="CSM13301" href="https://courses.helsinki.fi/fi/csm13301">CSM13301 Service Ecosystems</a></li>
-  <li><a class="course-row" id="CSM13302" href="https://courses.helsinki.fi/fi/csm13302">CSM13302 Services Engineering with Models</a></li>
-  <li><a class="course-row" id="CSM13304" href="https://courses.helsinki.fi/fi/csm13304">CSM13304 Seminar on Collaborative and Interoperable Computing</a></li>
-  <li><a class="course-row" id="CSM13401" href="https://courses.helsinki.fi/fi/csm13401">CSM13401 Human Computer Interaction</a></li>
-  <li><a class="course-row" id="CSM13402" href="https://courses.helsinki.fi/fi/csm13402">CSM13402 Designing Interactive Systems</a></li>
-  <li><a class="course-row" id="CSM13403" href="https://courses.helsinki.fi/fi/csm13403">CSM13403 Seminar on Advanced Topics in Human Computer Interaction</a></li>
-  <li><a class="course-row" id="CSM14101" href="https://courses.helsinki.fi/fi/csm14101">CSM14101 Ohjelmistoarkkitehtuurit</a></li>
-  <li><a class="course-row" id="CSM14102" href="https://courses.helsinki.fi/fi/csm14102">CSM14102 Methods for Software Engineering Research</a></li>
-  <li><a class="course-row" id="CSM14103" href="https://courses.helsinki.fi/fi/csm14103">CSM14103 Ohjelmistoarkkitehtuurien harjoitustyö</a></li>
-  <li><a class="course-row" id="CSM14104" href="https://courses.helsinki.fi/fi/csm14104">CSM14104 Software Product Management</a></li>
-  <li><a class="course-row" id="CSM14105" href="https://courses.helsinki.fi/csm14105">CSM14105 Ohjelmistoprojektien johtaminen ja ryhmadynamiikka</a></li>
-  <li><a class="course-row" id="CSM14106" href="https://courses.helsinki.fi/csm14106">CSM14106 Software Factory Experience</a></li>
-  <li><a class="course-row" id="CSM14107" href="https://courses.helsinki.fi/csm14107">CSM14107 Seminar in Empirical Software Engineering</a></li>
-  <li><a class="course-row" id="CSM14201" href="https://courses.helsinki.fi/csm14201">CSM14201 Ohjelmistojen testaus</a></li>
-  <li><a class="course-row" id="CSM14203" href="https://courses.helsinki.fi/csm14203">CSM14203 Ohjelmointikielten periaatteet</a></li>
-  <li><a class="course-row" id="CSM14204" href="https://courses.helsinki.fi/csm14204">CSM14204 Compilers</a></li>
-  <li><a class="course-row" id="CSM14205" href="https://courses.helsinki.fi/csm14205">CSM14205 Code Generation</a></li>
-  <li><a class="course-row" id="CSM14208" href="https://courses.helsinki.fi/csm14208">CSM14208 Seminaari: Ohjelmistotuotanto ja tietokonepelit</a></li>
-  <li><a class="course-row" id="CSM14209" href="https://courses.helsinki.fi/csm14209">CSM14209 Seminar in Novel Software Architecture Design</a></li>
-  <li><a class="course-row" id="CSM14303" href="https://courses.helsinki.fi/csm14303">CSM14303 Seminar on Big Data Management</a></li>
-  <li><a class="course-row" id="DATA11001" href="https://courses.helsinki.fi/data11001">DATA11001 Introduction to Data Science</a></li>
-  <li><a class="course-row" id="DATA11002" href="https://courses.helsinki.fi/data11002">DATA11002 Introduction to Machine Learning</a></li>
-  <li><a class="course-row" id="DATA12001" href="https://courses.helsinki.fi/data12001">DATA12001 Advanced Course in Machine Learning</a></li>
-  <li><a class="course-row" id="DATA14002" href="https://courses.helsinki.fi/data14002">DATA14002 Introduction to Big Data Management</a></li>
-  <li><a class="course-row" id="DATA15003" href="https://courses.helsinki.fi/data15003">DATA15003 Interactive Data Visualization</a></li>
-  <li><a class="course-row" id="DATA20002" href="https://courses.helsinki.fi/data20002">DATA20002 Seminar: Deep Learning for Natural Language Processing</a></li>
-  <li><a class="course-row" id="LSI31003" href="https://courses.helsinki.fi/lsi31003">LSI31003 Machine Learning in Molecular Biology</a></li>
-  <li><a class="course-row" id="LSI31004" href="https://courses.helsinki.fi/lsi31004">LSI31004 Seminar in machine learning methods for fossil data analysis</a></li>
-</ul>
-
-
-      </section>
-      <footer>
-        
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="./assets/js/scale.fix.js"></script>
-
-    <script src="./assets/js/button.js"></script>
-
-    <script>
-
-    const coursesByPeriod = {1:["TKT10001", "TKT10002", "TKT10004", "TKT20001", "TKT20004", "TKT20005", "TKT20007", "TKT20010", "TKT20011", "TKT21001", "TKT21010", "TKT21011", "TKT21008"],
-      2:["TKT10003", "TKT10005", "TKT20001", "TKT20005", "TKT20006", "TKT20007", "TKT20009", "TKT20010", "TKT20011", "TKT21002", "TKT21007", "CSM13501"],
-      3:["TKT10002", "TKT10004", "TKT10005", "TKT20001", "TKT20003", "TKT20007", "TKT21009" ],
-      4:["TKT10003", "TKT20001", "TKT20002", "TKT20003", "TKT20007", "TKT21004", "TKT21011"]
-    };
-
-    function resetHighlights() {
-      $(".course-row").each(function(){
-        $(this).css("background-color", "");
-      })
-    }
-
-    function highlightCoursesByPeriod(period) {
-      resetHighlights();
-
-      console.log("click!")
-      $.each( coursesByPeriod[period], function(i, val) {
-        $("#" + val).css("background-color", "#FFF294");
-      })
-    }
-
-    </script>
-  
-  </body>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="chrome=1">
+      <!-- Begin Jekyll SEO tag v2.3.0 -->
+      <title>cs-courseware-helsinki.github.io | University of Helsinki Computer Science Courseware</title>
+      <meta property="og:title" content="cs-courseware-helsinki.github.io" />
+      <meta property="og:locale" content="en_US" />
+      <meta name="description" content="University of Helsinki Computer Science Courseware" />
+      <meta property="og:description" content="University of Helsinki Computer Science Courseware" />
+      <link rel="canonical" href="https://cs-courseware-helsinki.github.io/" />
+      <meta property="og:url" content="https://cs-courseware-helsinki.github.io/" />
+      <meta property="og:site_name" content="cs-courseware-helsinki.github.io" />
+      <script type="application/ld+json">
+         {"name":"cs-courseware-helsinki.github.io","description":"University of Helsinki Computer Science Courseware","author":null,"@type":"WebSite","url":"https://cs-courseware-helsinki.github.io/","image":null,"publisher":null,"headline":"cs-courseware-helsinki.github.io","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}
+      </script>
+      <!-- End Jekyll SEO tag -->
+      <link rel="stylesheet" href="./assets/css/style.css">
+      <meta name="viewport" content="width=device-width">
+      <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+      <div class="wrapper">
+         <header>
+            <h1>cs-courseware-helsinki.github.io</h1>
+            <p>University of Helsinki Computer Science Courseware</p>
+            <p class="view"><a href="https://github.com/cs-courseware-helsinki">View My GitHub Profile</a></p>
+         </header>
+         <section>
+            <p><strong>University of Helsinki</strong></p>
+            <h1 id="cs-courseware">CS Courseware</h1>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            <a href="https://cs-courseware-helsinki.github.io/">Piilota aikataulut</a>
+            <br>
+            <button onclick="highlightCoursesByPeriod(1)">Periodi 1</button>
+            <button onclick="highlightCoursesByPeriod(2)">Periodi 2</button>
+            <button onclick="highlightCoursesByPeriod(3)">Periodi 3</button>
+            <button onclick="highlightCoursesByPeriod(4)">Periodi 4</button>
+            <button onclick="resetHighlights()">reset</button>
+            <p>Perusopinnot / Basic studies:</p>
+            <ul>
+               <li><a class="course-row" id="TKT10001" href="https://cs-courseware-helsinki.github.io/TKT10001-Johdatus-tietojenkasittelytieteeseen/">TKT10001 Johdatus tietojenkäsittelytieteeseen</a></li>
+               <li><a class="course-row" id="TKT10002" href="https://cs-courseware-helsinki.github.io/TKT10002-Ohjelmoinnin-perusteet/">TKT10002 Ohjelmoinnin perusteet</a></li>
+               <li><a class="course-row" id="TKT10003" href="https://cs-courseware-helsinki.github.io/TKT10003-Ohjelmoinnin-jatkokurssi/">TKT10003 Ohjelmoinnin jatkokurssi</a></li>
+               <li><a class="course-row" id="TKT10004" href="https://cs-courseware-helsinki.github.io/TKT10004-Tietokantojen-perusteet/">TKT10004 Tietokantojen perusteet</a></li>
+               <li><a class="course-row" id="TKT10005" href="https://cs-courseware-helsinki.github.io/TKT10005-Tietokoneen-toiminta/">TKT10005 Tietokoneen toiminta</a></li>
+            </ul>
+            <p>Aineopinnot / Intermediate studies:</p>
+            <ul>
+               <li><a class="course-row" id="TKT20001" href="https://cs-courseware-helsinki.github.io/TKT20001-Tietorakenteet-ja-algoritmit">TKT20001 Tietorakenteet ja algoritmit</a></li>
+               <li><a class="course-row" id="TKT20002" href="https://cs-courseware-helsinki.github.io/TKT20002-Ohjelmistotekniikan-menetelmat">TKT20002 Ohjelmistotekniikan menetelmät</a></li>
+               <li><a class="course-row" id="TKT20003" href="https://cs-courseware-helsinki.github.io/TKT20003-Kayttojarjestelmat">TKT20003 Kayttöjärjestelmät</a></li>
+               <li><a class="course-row" id="TKT20004" href="https://cs-courseware-helsinki.github.io/TKT20004-Tietoliikenteen-perusteet">TKT20004 Tietoliikenteen perusteet</a></li>
+               <li><a class="course-row" id="TKT20005" href="https://cs-courseware-helsinki.github.io/TKT20005-Laskennan-mallit">TKT20005 Laskennan mallit</a></li>
+               <li><a class="course-row" id="TKT20006" href="https://cs-courseware-helsinki.github.io/TKT20006-Ohjelmistotuotanto">TKT20006 Ohjelmistotuotanto</a></li>
+               <li><a class="course-row" id="TKT20007" href="https://cs-courseware-helsinki.github.io/TKT20007-Ohjelmistotuotanto-projekti">TKT20007 Ohjelmistotuotantoprojekti</a></li>
+               <li><a class="course-row" id="TKT20009" href="https://cs-courseware-helsinki.github.io/TKT20009-Introduction-to-Cyber-Security">TKT20009 Introduction to Cyber Security</a></li>
+               <li><a class="course-row" id="TKT20010" href="https://cs-courseware-helsinki.github.io/TKT20010-Aineopintojen-harjoitustyo-Tietorakenteet-ja-algoritmit">TKT20010 Aineopintojen harjoitustyö: Tietorakenteet ja algoritmit</a></li>
+               <li><a class="course-row" id="TKT20011" href="https://cs-courseware-helsinki.github.io/TKT20011-Aineopintojen-harjoitustyo-Tietokantasovellus">TKT20011 Intermediate Studies Project: Database Application</a></li>
+               <li><a class="course-row" id="TKT21001" href="https://cs-courseware-helsinki.github.io/TKT21001-Tietokannan-suunnittelu">TKT21001 Tietokannan suunnittelu</a></li>
+               <li><a class="course-row" id="TKT21002" href="https://cs-courseware-helsinki.github.io/TKT21002-Introduction-to-Game-Programming">TKT21002 Introduction to Game Programming</a></li>
+               <li><a class="course-row" id="TKT21004" href="https://cs-courseware-helsinki.github.io/TKT21004-Computer-Organization">TKT21004 Computer Orgarnisation</a></li>
+               <li><a class="course-row" id="TKT21007" href="https://cs-courseware-helsinki.github.io/TKT21007-Web-palvelinohjelmointi-Java">TKT21007 Web-palvelinohjelmointi Java</a></li>
+               <li><a class="course-row" id="TKT21008" href="https://cs-courseware-helsinki.github.io/TKT21008-Programming-in-C">TKT21008 Programming in C</a></li>
+               <li><a class="course-row" id="TKT21009" href="https://cs-courseware-helsinki.github.io/TKT21009-Fullstack-websovelluskehitys">TKT21009 Fullstack-websovelluskehitys</a></li>
+               <li><a class="course-row" id="TKT21010" href="https://cs-courseware-helsinki.github.io/TKT21010-Fullstack-websovelluskehitys-harjoitustyo">TKT21010 Fullstack-websovelluskehitys -harjoitustyo</a></li>
+               <li><a class="course-row" id="CSM13501" href="https://cs-courseware-helsinki.github.io/CSM13501-Shell-Scripting/">CSM13501 Shell Scripting</a></li>
+            </ul>
+            <p>Syventävät opinnot / Advanced studies</p>
+            <ul>
+               <li><a class="course-row" id="CSM11002" href="https://courses.helsinki.fi/fi/csm11002">CSM11002 Computer Science Colloquium</a></li>
+               <li><a class="course-row" id="CSM12101" href="https://courses.helsinki.fi/fi/csm12101">CSM12101 Design and Analysis of Algorithms</a></li>
+               <li><a class="course-row" id="CSM12103" href="https://courses.helsinki.fi/fi/csm12103">CSM12103 Data Compression Techniques</a></li>
+               <li><a class="course-row" id="CSM12104" href="https://courses.helsinki.fi/fi/csm12104">CSM12104 Randomized Algorithms I</a></li>
+               <li><a class="course-row" id="CSM12105" href="https://courses.helsinki.fi/fi/csm12105">CSM12105 Randomized Algorithms II</a></li>
+               <li><a class="course-row" id="CSM12108" href="https://courses.helsinki.fi/fi/csm12108">CSM12108 Biological Sequence Analysis</a></li>
+               <li><a class="course-row" id="CSM12110" href="https://courses.helsinki.fi/fi/csm12110">CSM12110 Seminar in Experimental Algorithmics</a></li>
+               <li><a class="course-row" id="CSM12111" href="https://courses.helsinki.fi/fi/csm12111">CSM12111 Seminar on Parameterized Algorithms</a></li>
+               <li><a class="course-row" id="CSM12112" href="https://courses.helsinki.fi/fi/csm12112">CSM12112 Seminar on Applied Discrete Algorithms A</a></li>
+               <li><a class="course-row" id="CSM13001" href="https://courses.helsinki.fi/fi/csm13001">CSM13001 Distributed Systems</a></li>
+               <li><a class="course-row" id="CSM13101" href="https://courses.helsinki.fi/fi/csm13101">CSM13101 Networked Systems and Services</a></li>
+               <li><a class="course-row" id="CSM13102" href="https://courses.helsinki.fi/fi/csm13102">CSM13102 Internet Protocols</a></li>
+               <li><a class="course-row" id="CSM13103" href="https://courses.helsinki.fi/fi/csm13103">CSM13103 Cloud and Edge Computing</a></li>
+               <li><a class="course-row" id="CSM13104" href="https://courses.helsinki.fi/fi/csm13104">CSM13104 Scalable Overlay Networks</a></li>
+               <li><a class="course-row" id="CSM13181" href="https://courses.helsinki.fi/fi/csm13181">CSM13181 Seminar on Cloud-based Mobile Networking</a></li>
+               <li><a class="course-row" id="CSM13202" href="https://courses.helsinki.fi/fi/csm13202">CSM13202 Cryptography in Networking</a></li>
+               <li><a class="course-row" id="CSM13204" href="https://courses.helsinki.fi/fi/csm13204">CSM13204 Cyber Security II</a></li>
+               <li><a class="course-row" id="CSM13281" href="https://courses.helsinki.fi/fi/csm13281">CSM13281 Seminar on Communication Security</a></li>
+               <li><a class="course-row" id="CSM13301" href="https://courses.helsinki.fi/fi/csm13301">CSM13301 Service Ecosystems</a></li>
+               <li><a class="course-row" id="CSM13302" href="https://courses.helsinki.fi/fi/csm13302">CSM13302 Services Engineering with Models</a></li>
+               <li><a class="course-row" id="CSM13304" href="https://courses.helsinki.fi/fi/csm13304">CSM13304 Seminar on Collaborative and Interoperable Computing</a></li>
+               <li><a class="course-row" id="CSM13401" href="https://courses.helsinki.fi/fi/csm13401">CSM13401 Human Computer Interaction</a></li>
+               <li><a class="course-row" id="CSM13402" href="https://courses.helsinki.fi/fi/csm13402">CSM13402 Designing Interactive Systems</a></li>
+               <li><a class="course-row" id="CSM13403" href="https://courses.helsinki.fi/fi/csm13403">CSM13403 Seminar on Advanced Topics in Human Computer Interaction</a></li>
+               <li><a class="course-row" id="CSM14101" href="https://courses.helsinki.fi/fi/csm14101">CSM14101 Ohjelmistoarkkitehtuurit</a></li>
+               <li><a class="course-row" id="CSM14102" href="https://courses.helsinki.fi/fi/csm14102">CSM14102 Methods for Software Engineering Research</a></li>
+               <li><a class="course-row" id="CSM14103" href="https://courses.helsinki.fi/fi/csm14103">CSM14103 Ohjelmistoarkkitehtuurien harjoitustyö</a></li>
+               <li><a class="course-row" id="CSM14104" href="https://courses.helsinki.fi/fi/csm14104">CSM14104 Software Product Management</a></li>
+               <li><a class="course-row" id="CSM14105" href="https://courses.helsinki.fi/csm14105">CSM14105 Ohjelmistoprojektien johtaminen ja ryhmadynamiikka</a></li>
+               <li><a class="course-row" id="CSM14106" href="https://courses.helsinki.fi/csm14106">CSM14106 Software Factory Experience</a></li>
+               <li><a class="course-row" id="CSM14107" href="https://courses.helsinki.fi/csm14107">CSM14107 Seminar in Empirical Software Engineering</a></li>
+               <li><a class="course-row" id="CSM14201" href="https://courses.helsinki.fi/csm14201">CSM14201 Ohjelmistojen testaus</a></li>
+               <li><a class="course-row" id="CSM14203" href="https://courses.helsinki.fi/csm14203">CSM14203 Ohjelmointikielten periaatteet</a></li>
+               <li><a class="course-row" id="CSM14204" href="https://courses.helsinki.fi/csm14204">CSM14204 Compilers</a></li>
+               <li><a class="course-row" id="CSM14205" href="https://courses.helsinki.fi/csm14205">CSM14205 Code Generation</a></li>
+               <li><a class="course-row" id="CSM14208" href="https://courses.helsinki.fi/csm14208">CSM14208 Seminaari: Ohjelmistotuotanto ja tietokonepelit</a></li>
+               <li><a class="course-row" id="CSM14209" href="https://courses.helsinki.fi/csm14209">CSM14209 Seminar in Novel Software Architecture Design</a></li>
+               <li><a class="course-row" id="CSM14303" href="https://courses.helsinki.fi/csm14303">CSM14303 Seminar on Big Data Management</a></li>
+               <li><a class="course-row" id="DATA11001" href="https://courses.helsinki.fi/data11001">DATA11001 Introduction to Data Science</a></li>
+               <li><a class="course-row" id="DATA11002" href="https://courses.helsinki.fi/data11002">DATA11002 Introduction to Machine Learning</a></li>
+               <li><a class="course-row" id="DATA12001" href="https://courses.helsinki.fi/data12001">DATA12001 Advanced Course in Machine Learning</a></li>
+               <li><a class="course-row" id="DATA14002" href="https://courses.helsinki.fi/data14002">DATA14002 Introduction to Big Data Management</a></li>
+               <li><a class="course-row" id="DATA15003" href="https://courses.helsinki.fi/data15003">DATA15003 Interactive Data Visualization</a></li>
+               <li><a class="course-row" id="DATA20002" href="https://courses.helsinki.fi/data20002">DATA20002 Seminar: Deep Learning for Natural Language Processing</a></li>
+               <li><a class="course-row" id="LSI31003" href="https://courses.helsinki.fi/lsi31003">LSI31003 Machine Learning in Molecular Biology</a></li>
+               <li><a class="course-row" id="LSI31004" href="https://courses.helsinki.fi/lsi31004">LSI31004 Seminar in machine learning methods for fossil data analysis</a></li>
+            </ul>
+         </section>
+         <footer>
+            <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+         </footer>
+      </div>
+      <script src="./assets/js/scale.fix.js"></script>
+      <script src="./assets/js/button.js"></script>
+      <script src="./assets/js/courseSchedules.js"></script>
+   </body>
 </html>
