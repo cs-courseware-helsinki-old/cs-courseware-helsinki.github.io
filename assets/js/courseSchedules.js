@@ -1,4 +1,4 @@
-const courseAPI_url = "courseSchedules_sample.json";  
+const courseAPI_url = "https://raw.githubusercontent.com/cs-courseware-helsinki/cs-courseware-helsinki.github.io/master/courseSchedules_sample.json";  
 let courseSchedules = "";
 
 function loadCourseSchedules() {
